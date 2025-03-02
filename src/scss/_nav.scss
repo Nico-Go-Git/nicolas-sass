@@ -1,0 +1,26 @@
+$primary-color: black;
+$secondary-color: #336d94;
+.nav {
+    width: 15%;
+    min-width: 140px;
+    padding-top: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    color: $secondary-color;
+// REMOVING BULLET POINTS
+    ul, li {
+      list-style-type: none;
+    }
+
+
+    a:visited, a:link {
+      text-decoration: none;
+      color: $primary-color;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: $secondary-color;
+    }
+  }
